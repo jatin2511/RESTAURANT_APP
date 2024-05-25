@@ -18,7 +18,7 @@ const Reservation = () => {
     e.preventDefault();
     try {
       const {data}  = await axios.post(
-        "https://restaurant-app-api-blush.vercel.app/reservation/send",
+        "http://localhost:4500/reservation/send",
         { firstname, lastname, email, phone, time, date },
         {
           headers: {
@@ -36,7 +36,8 @@ const Reservation = () => {
       setDate("");
       navigate("/success");
     } catch (error) {
-      toast.error(error.response);
+      const errorMessage = error.response?.data?.message || "An error occurred";
+      toast.error(errorMessage);
     }
   };
 
