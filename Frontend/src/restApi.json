@@ -1,0 +1,151 @@
+{
+    "data": [
+        {"ourQualities" : [
+            {
+                "id": 1,
+                "image": "./quality_food.svg",
+                "title": "QUALITY FOOD",
+                "description": "Delicious, authentic dishes crafted with fresh, high-quality ingredients." 
+            },
+            {
+                "id": 2,
+                "image": "./super_taste.svg",
+                "title": "SUPER TASTE",
+                "description": "Exquisite flavors that capture the essence of authentic Indian cuisine." 
+            },
+            {
+                "id": 3,
+                "image": "./fast_delivery.svg",
+                "title": "FAST DELIVERY",
+                "description": "Prompt service ensuring your meal arrives hot and fresh, always." 
+            }
+        ],
+        "dishes": [
+            {
+                "id": 1,
+                "image": "./dinner1.jpeg",
+                "title": "MATAR KULCHA",
+                "category": "Dinner"
+            },
+            {
+                "id": 2,
+                "image": "./dinner2.png",
+                "title": "KAATHI ROLLS",
+                "category": "Dinner"
+            },
+            {
+                "id": 3,
+                "image": "./breakfast1.png",
+                "title": "PARATHA",
+                "category": "Breakfast"
+            },
+            {
+                "id": 4,
+                "image": "./dinner3.png",
+                "title": "NAAN",
+                "category": "Dinner"
+            },
+            {
+                "id": 5,
+                "image": "./lunch1.png",
+                "title": "LASSI",
+                "category": "Lunch"
+            },
+            {
+                "id": 6,
+                "image": "./dinner4.png",
+                "title": "IDLI",
+                "category": "Dinner"
+            },
+            {
+                "id": 7,
+                "image": "./dinner5.png",
+                "title": "CURRY",
+                "category": "Dinner"
+            },
+            {
+                "id": 8,
+                "image": "./dinner6.png",
+                "title": "MALAI KOFTA",
+                "category": "Dinner"
+            }
+        ],
+        "team": [
+            {
+                "id": 1,
+                "image": "./team_member_1.png",
+                "name": "SANJEEV KAPOOR",
+                "designation": "Founder & Head Chef"
+            },
+            {
+                "id": 2,
+                "image": "./team_member_2.png",
+                "name": "SHIPRA KHANNA",
+                "designation": "Sous Chef"
+            },
+            {
+                "id": 3,
+                "image": "./team_member_3.png",
+                "name": "SARANSH GOLIA",
+                "designation": "Fast Food Chef"
+            },
+            {
+                "id": 4,
+                "image": "./team_member_4.png",
+                "name": "VIKAS KHANNA",
+                "designation": "Senior Chef"
+            }
+        ],
+        "who_we_are": [
+            {
+                "id": 1,
+                "number": "14",
+                "title": "Restaurants"
+            },
+            {
+                "id": 2,
+                "number": "20",
+                "title": "Chef In Kitchen"
+            },
+            {
+                "id": 3,
+                "number": "08",
+                "title": "Years Of Experience"
+            },
+            {
+                "id": 4,
+                "number": "200",
+                "title": "Food Dishes"
+            }
+        ],
+        "navbarLinks": [
+            {
+                "id": 1,
+                "title": "HOME",
+                "link": "heroSection"
+            },
+            {
+                "id": 2,
+                "title": "ABOUT US",
+                "link": "about"
+            },
+            {
+                "id": 3,
+                "title": "SERVICES",
+                "link": "qualities"
+            },
+            {
+                "id": 4,
+                "title": "TEAM",
+                "link": "team"
+            },
+            {
+                "id": 5,
+                "title": "RESERVATION",
+                "link": "reservation"
+            }
+        ]
+    
+    } 
+    ]
+}
