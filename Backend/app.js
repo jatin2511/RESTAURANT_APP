@@ -9,7 +9,7 @@ const app = express();
 dotenv.config({ path: './config/config.env' });
 
 const corsOptions = {
-    origin: process.env.FRONTEND_URL,
+    origin:"https://restaurant-app-theta-nine.vercel.app/",
     methods: ['GET', 'POST'],
     credentials: true
 };
