@@ -27,7 +27,7 @@ const Reservation = () => {
           withCredentials: true,
         }
       );
-      //toast.success(data.message);
+      toast.success(data.message);
       setfirstname("");
       setlastname("");
       setPhone(0);
@@ -36,7 +36,7 @@ const Reservation = () => {
       setDate("");
       navigate("/success");
     } catch (error) {
-      toast.error(error.response.data.message);
+      toast.error(error.response);
     }
   };
 
