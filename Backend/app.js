@@ -6,6 +6,7 @@ import { errormiddleware } from './error/error.js'
 import reservationrouter from './routes/reservationRoute.js'
 const app=express()
 dotenv.config({path:'./config/config.env'})
+console.log("frontend -url",process.env.FRONTEND_URL)
 app.use((req, res, next) => {
     res.header("Access-Control-Allow-Origin", process.env.FRONTEND_URL);
     res.header("Access-Control-Allow-Methods", "POST");
