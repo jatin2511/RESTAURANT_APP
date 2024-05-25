@@ -14,7 +14,7 @@ app.use((req, res, next) => {
     next();
 });
 app.use(cors({
-    origin:[process.env.FRONTEND_URL],
+    origin:["https://restaurant-app-xi-three.vercel.app"],
     methods:['post'],
     credentials:true
 }))
